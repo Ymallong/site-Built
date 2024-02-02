@@ -1,4 +1,7 @@
-import Card from "@/components/Card";
+// In pages/index.js
+
+import Card from '../src/components/Card';
+
 function HomePage() {
   return (
     <div className="flex flex-wrap justify-center">
@@ -12,6 +15,7 @@ function HomePage() {
         description="Discover our services and expertise."
         href="/capabilities"
       />
+      {/* Repeat for other sections like Certifications, Contracts, Contact */}
     </div>
   );
 }
